@@ -1,0 +1,33 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地虚拟环境和依赖缓存
+.venv/
+venv/
+env/
+py_pkgs/
+
+# YOLO 运行后重新生成的结果目录
+runs/
+runs_train/
+runs_detect/
+runs_val/
+yolov5/runs/
+
+# 临时文件和日志
+*.log
+*.tmp
+*.cache
+
+# 报告文件不放入代码仓库
+*.aux
+*.out
+project_report.pdf
+project_report.tex
+
+# 编辑器和系统文件
+.vscode/
+.DS_Store
+Thumbs.db
